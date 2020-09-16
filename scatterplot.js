@@ -1,5 +1,6 @@
   // **** Your JavaScript code goes here ****
-  d3.csv('baseball_hr_leaders.csv').then(function(dataset) {	 
+  d3.csv('/assets/data/experience.csv').then(function(dataset) {	 
+	  console.log('newfile');
 	  console.log(dataset);
 	});
 
