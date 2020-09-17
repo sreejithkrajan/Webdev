@@ -1,2 +1,4 @@
-﻿Duration,Role,Company
-2-Jan,Student,GT
+Year,Position,Company,icon
+Present,Doctor of Philosophy,Georgia Institute of Technology,fa fa-code
+2016,Master of Science,Georgia Institute of Technology,fa fa-code
+2013,Bachelor of Technology,Cochin University of Science and Technology,fa fa-code
