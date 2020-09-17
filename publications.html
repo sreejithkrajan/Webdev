@@ -115,95 +115,12 @@ http://themeforest.net/user/owwwlab/
           <section id="main-area">
             <section class="section section-narrow">
               <div class="container">
-                <div class="search-box inline-filters">
-                  <div class="row form-inline">
-                    <div class="col-sm-10 col-xs-6 form-group with-filter">
-                      <input type="text" placeholder="Search" class="form-control"><a href="#" data-toggle="tooltip" data-placement="top" title="Filter" class="toggle-filter"></a>
-                    </div>
-                    <div class="col-sm-2 col-xs-6 form-group">
-                      <input type="submit" value="Submit" class="btn btn-small btn-skin-red btn-block">
-                    </div>
-                  </div>
-                  <div class="row filters"><a href="#" class="clear-selectize">Clear Filters</a>
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <label>Publication Type:</label>
-                        <select data-placeholder="Select Types..." multiple="multiple" class="selectize">
-                          <option value=""></option>
-                          <option value="Journal Article">Journal Article</option>
-                          <option value="Conference Paper">Conference Paper</option>
-                          <option value="Report">Report</option>
-                          <option value="Book">Book</option>
-                          <option value="Book Chapter">Book Chapter</option>
-                          <option value="Proceeding">Proceeding</option>
-                        </select>
-                      </div>
-                      <div class="form-group">
-                        <label>Year:</label>
-                        <select data-placeholder="Select Year" multiple="multiple" class="selectize">
-                          <option value=""> </option>
-                          <option value="2000">2016</option>
-                          <option value="2001">2017</option>                        
-                        </select>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <label>Category:</label>
-                        <select data-placeholder="Select Types..." multiple="multiple" class="selectize">
-                          <option value=""></option>
-                          <option value="Interconnects">Interconnects</option>
-                          <option value="Packaging">Packaging</option>
-                          <option value="Misc">Misc</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                </div>
                 <div class="sp-blank-50"></div>
-                <div class="pubs-wrapper">
-				  <div class="pub-item with-icon">
-                      <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                      <div class="content-wrapper">
-                        <h3 class="title">Microfabrication, Assembly, and Hermetic Packaging of mm-Sized Free-Floating Neural Probes</h3>
-                        <div class="description">
-                          <div class="citation">
-                             
-                            Proceedings of IEEE Biomedical Circuits and Systems Conference (BioCAS) 2017
-                            <br>Yeon et. al.
-                          </div><a href="#" class="link-with-icon"> <i class="fa fa-external-link"></i>Publisher's website</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="pub-item with-icon">
-                      <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                      <div class="content-wrapper">
-                        <h3 class="title">Reading bits on a CD-ROM without a photodiode</h3>
-                        <div class="description">
-                          <div class="citation">
-                             
-                            IET Optoelectronics 2017
-                            <br>Wishon et. al.
-                          </div><a href="http://digital-library.theiet.org/content/journals/10.1049/iet-opt.2016.0118" class="link-with-icon"> <i class="fa fa-external-link"></i>Publisher's website</a>
-                        </div>
-                      </div>
-                    </div>
+                <div class="pubs-wrapper" id ="publications-div">		
                   
                 </div>
                 <div class="sp-blank-50"></div>
-                <!-- #####Begin pagination links-->
-<!--                 <nav class="ol-pagination lined-links">
-                  <ul class="pagination">
-                    <li><a href="#">&laquo;</a></li>
-                    <li><a href="#">1</a></li>
-                    <li class="active"><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">&raquo;</a></li>
-                  </ul>
-                </nav>
-                <!-- #####End pagination links--> 
+                
                 <div class="sp-blank-50"></div>
               </div>
             </section>
@@ -232,7 +149,7 @@ http://themeforest.net/user/owwwlab/
     <script src="assets/js/vendors/vendors.js"></script>
     <!-- Local Revolution tools-->
     <!-- Only for local and can be removed on server-->
-    <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <!--<script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
     <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
     <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
@@ -241,7 +158,10 @@ http://themeforest.net/user/owwwlab/
     <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
     <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
     <script src="assets/js/custom.js"></script>
-    <script src="http://localhost:35729/livereload.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>-->
+	
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="assets/js/pageload/publications.js"></script>	
     <!-- #####End scripts-->
   </body>
 </html>
